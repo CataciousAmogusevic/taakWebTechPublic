@@ -1,0 +1,51 @@
+nav li{
+    background-color: lightgreen;
+    margin-left: 7px;
+    margin-right: 7px;
+    padding: 7px;  
+    border-radius: 5px;
+    border: 2px solid black;
+    display:inline;
+  }
+  
+  nav a{
+      color: white;
+      text-decoration: none;
+  }
+  
+  nav li:hover{
+      background-color: greenyellow;
+  }
+  
+  nav a:hover{
+      color: greenyellow;
+      font-weight: bold;
+  }
+
+  h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  li{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+    p{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+  body{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  }   
+
+  @media only screen and (max-width: 400px){
+    #atv{
+        display: none;
+    }
+}
